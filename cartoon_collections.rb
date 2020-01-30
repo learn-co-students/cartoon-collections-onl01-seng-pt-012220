@@ -27,6 +27,7 @@ def find_the_cheese(cheeses)
   while i < cheese_types.length
     return cheese_types[i] if cheeses.include?(cheese_types[i])
     i += 1 
+    # I was gonna submit without putting in (i += 1) but it seemed to break something. the test wasnt coming back negative but any input I put into the console seemed to do nothing. If anyone sees this remove the (i += 1) i dont know how to explain it.
   
   end
 end
